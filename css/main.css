@@ -1,0 +1,21 @@
+.cover-photo {
+  max-height: 80%;
+}
+
+.cover {
+  background-color: black;
+  color: white;
+}
+
+.row {
+  margin-top: 10px;
+}
+
+.gallery-img {
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+/*.gallery {
+	background-color: 
+}*/
