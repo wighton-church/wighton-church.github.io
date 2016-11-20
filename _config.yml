@@ -11,5 +11,4 @@ github_username:  jekyll
 markdown: kramdown
 permalink: pretty
 permalink: ./:title
-pygments: true
 encoding: utf-8

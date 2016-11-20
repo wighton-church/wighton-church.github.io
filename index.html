@@ -1,20 +1,24 @@
----
-layout: default
----
+<html>
+<head>
+    </head>
+    <body class="cover">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h1>All Saints, Wighton <small><a href="/home.html">Click to enter</a></small></h1>
 
-<div class="home">
-
-  <h1>Posts</h1>
-
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+                    <br>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <img class="img img-responsive cover-photo" src="images/hqchurch.jpeg">
+                </div>
+            </div>
+        </div>
+        <link rel="stylesheet" type="text/css" href="/css/main.css">
+        <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script type="text/javascript" src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    </body>
+</html>
